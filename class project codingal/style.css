@@ -1,0 +1,65 @@
+ html {
+     height: 100%;
+     width: 100%;
+ }
+
+ .external {
+     color: teal;
+     font-size: 30px
+ }
+
+ .grad1 {
+     background-image: "https: //en.barbiepedia.com/img/barbie/800/X9449_0.jpg";
+ }
+
+ #grad2 {
+     background: linear-gradient to right (blue, teal);
+ }
+
+ #grad3 {
+     background-color: radial-gradient(circle, yellow, teal, blue);
+ }
+
+ .Typography {
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .Transform {
+     transform: rotate(24deg);
+ }
+
+ .text-decoration {
+     text-decoration: underline;
+ }
+
+ .text-transform {
+     text-transform: uppercase;
+ }
+
+ .textindent {
+     text-indent: 50px;
+ }
+
+ .textshadow {
+     text-shadow: 2px 2px 5px purple;
+ }
+
+ .boxshadow {
+     box-shadow: 10px 10px 5px red;
+ }
+
+ .example {
+     margin: 5px 4px 5px 4px;
+     padding: 5px 4px 5px 4px;
+     border: 2px solid red;
+     height: 10%;
+     width: 15%;
+ }
+
+ #float1 {
+     float: right;
+ }
+
+ #float2 {
+     float: left;
+ }
