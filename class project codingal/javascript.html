@@ -42,6 +42,7 @@
     <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
 
     <p id="demo"></p>
+    <button onclick="myfunction (5)"> Execute JS function </button>
 
     <script>
         var x, y, z;
@@ -66,6 +67,15 @@
         var z = x + y;
 
         document.getElementById("demo").innerHTML = z;
+   
+
+  
+        function myfunction(x, y) {
+            if (y == undefined) {
+                y = 2;
+            }
+            document.write(x * y);
+        }
     </script>
 </body>
 

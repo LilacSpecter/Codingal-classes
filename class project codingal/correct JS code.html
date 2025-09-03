@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="myfunction (5)"> Execute JS function </button>
+
+    <button type="button" onclick="myfunction()"> click me </button>
+
+    <p id="deno"></p>
+    <p id="deno1"></p>
+
+    <script>
+        function myfunction(x, y) {
+            if (y == undefined) {
+                y = 2;
+            }
+            document.write(x * y);
+        }
+
+        var b = 5
+        function myfunction() {
+            var a = 4;
+            document.getElementById("deno").innerHTML = b * a;
+        }
+    </script>
+
+
+</body>
+
+</html>
