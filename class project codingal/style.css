@@ -29,15 +29,15 @@
  }
 
  .text-decoration {
-     text-decoration: underline;
+     text-decoration:dotted
  }
 
  .text-transform {
-     text-transform: uppercase;
+     text-transform:capitalize
  }
 
  .textindent {
-     text-indent: 50px;
+     text-indent: 50px
  }
 
  .textshadow {
@@ -50,7 +50,7 @@
 
  .example {
      margin: 5px 4px 5px 4px;
-     padding: 5px 4px 5px 4px;
+     padding: 5px 4px 5px 4px pink;
      border: 2px solid red;
      height: 10%;
      width: 15%;
