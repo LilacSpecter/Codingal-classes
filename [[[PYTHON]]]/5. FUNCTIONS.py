@@ -84,7 +84,7 @@ def recur_factorial(n):
     else:
         return n*recur_factorial(n-1)
 
-num = int(input("Enter a number"))
+num = int(input("Enter a number :"))
 
 # check if the number is negative
 if num < 0:
@@ -115,8 +115,8 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
-num1 = int(input("Enter number 1"))
-num2 = int(input("Enter number 2"))
+num1 = int(input("Enter number 1 :"))
+num2 = int(input("Enter number 2 :"))
 
 print("Sum :", add(num1, num2))
 print("Defference :", subtract(num1, num2))
