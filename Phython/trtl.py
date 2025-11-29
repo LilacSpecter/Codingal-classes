@@ -67,7 +67,7 @@ import turtle
 t = turtle.Turtle()
 s = turtle.Screen()
 colors = ['red','purple','blue','green','orange','yellow']
-s.bgcolor('white')
+s.bgcolor('black')
 t.speed('fastest')
 t.hideturtle()
 while True:
