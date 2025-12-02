@@ -130,9 +130,60 @@
 #else:
 #   print(f"{num} is a prime number")     
 
-def intro(name):
+#ACTIVITY 1
 
-    print("Hello, Good Morning! I am", name)
+lst = ['apple', 'banana', 'fig', 'grape','cherry', 'elderberry']
+print("The original list is :", lst)
+print("The last element of the list is :", len(lst))
 
-user_name = input("Enter your name")
-intro(user_name)
+print("The first element of the list is :", lst[0])
+print("The last element of the list is :", lst[5])
+print("The last element of the list is :", lst[-1])
+
+lst.append("kiwi")
+print("The list after appending kiwi is :", lst)
+
+lst.remove("fig")
+print("The list after removing fig is :", lst)
+
+lst.sort()
+print("The list after sorting is :", lst)
+
+lst.reverse()
+print("The list after reversing is :", lst)
+
+lst.clear()
+print("The list after clearing is :", lst)
+print(lst)
+
+#activity 2 
+
+my_dict={
+    "name": "John",
+    "age" : 25,
+    "city" : "New York",
+    "country" : "USA",
+    "email" : "john@example.com",
+    "phone" : "123-456-7890"
+}
+
+print("The original dicitionary is : ", my_dict)
+print("The value of the key name is : ", my_dict["name"])
+print("The value of the key age is : ", my_dict["age"])
+
+my_dict["state"] = "New York"
+print("The dictionary after adding state is :", my_dict)
+
+#activity 3
+
+def test(lst1):
+    result={}
+    for item in lst1:
+        result[item[0]]=item[1:]
+    return result
+
+student_list = [("John", 25, "New York"), ("Jane", 30, "Los Angeles"),("Jack", 28, "Chicago")]
+
+print(test(student_list))
+print("\nOriginal list of lists :", student_list)
+print("Convert the said list of lists to a dictionary : ",student_list)
