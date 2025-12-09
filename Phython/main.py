@@ -132,58 +132,101 @@
 
 #ACTIVITY 1
 
-lst = ['apple', 'banana', 'fig', 'grape','cherry', 'elderberry']
-print("The original list is :", lst)
-print("The last element of the list is :", len(lst))
+#lst = ['apple', 'banana', 'fig', 'grape','cherry', 'elderberry']
+#print("The original list is :", lst)
+#print("The last element of the list is :", len(lst))
 
-print("The first element of the list is :", lst[0])
-print("The last element of the list is :", lst[5])
-print("The last element of the list is :", lst[-1])
+#print("The first element of the list is :", lst[0])
+#print("The last element of the list is :", lst[5])
+#print("The last element of the list is :", lst[-1])
 
-lst.append("kiwi")
-print("The list after appending kiwi is :", lst)
+#lst.append("kiwi")
+#print("The list after appending kiwi is :", lst)
 
-lst.remove("fig")
-print("The list after removing fig is :", lst)
+#lst.remove("fig")
+#print("The list after removing fig is :", lst)
 
-lst.sort()
-print("The list after sorting is :", lst)
+#lst.sort()
+#print("The list after sorting is :", lst)
 
-lst.reverse()
-print("The list after reversing is :", lst)
+#lst.reverse()
+#print("The list after reversing is :", lst)
 
-lst.clear()
-print("The list after clearing is :", lst)
-print(lst)
+#lst.clear()
+#print("The list after clearing is :", lst)
+#print(lst)
 
 #activity 2 
 
-my_dict={
-    "name": "John",
-    "age" : 25,
-    "city" : "New York",
-    "country" : "USA",
-    "email" : "john@example.com",
-    "phone" : "123-456-7890"
-}
+#my_dict={
+#    "name": "John",
+#    "age" : 25,
+#    "city" : "New York",
+#    "country" : "USA",
+#    "email" : "john@example.com",
+#    "phone" : "123-456-7890"
+#}
 
-print("The original dicitionary is : ", my_dict)
-print("The value of the key name is : ", my_dict["name"])
-print("The value of the key age is : ", my_dict["age"])
+#print("The original dicitionary is : ", my_dict)
+#print("The value of the key name is : ", my_dict["name"])
+#print("The value of the key age is : ", my_dict["age"])
 
-my_dict["state"] = "New York"
-print("The dictionary after adding state is :", my_dict)
+#my_dict["state"] = "New York"
+#print("The dictionary after adding state is :", my_dict)
 
 #activity 3
 
-def test(lst1):
-    result={}
-    for item in lst1:
-        result[item[0]]=item[1:]
-    return result
+#def test(lst1):
+#    result={}
+#    for item in lst1:
+#        result[item[0]]=item[1:]
+#    return result
 
-student_list = [("John", 25, "New York"), ("Jane", 30, "Los Angeles"),("Jack", 28, "Chicago")]
+#student_list = [("John", 25, "New York"), ("Jane", 30, "Los Angeles"),#("Jack", 28, "Chicago")]
 
-print(test(student_list))
-print("\nOriginal list of lists :", student_list)
-print("Convert the said list of lists to a dictionary : ",student_list)
+#print(test(student_list))
+#print("\nOriginal list of lists :", student_list)
+#print("Convert the said list of lists to a dictionary : ",student_list)
+
+#ACTIVITY 1 
+my_tuple =()
+print(my_tuple)
+my_tuple = {1,2,3}
+print(my_tuple)
+
+my_tuple =(1,2,3, "hi")
+print(my_tuple)
+
+my_tuple =(1,2,3, "hi", 4.5)
+print(my_tuple)
+
+my_tuple =(1,2,3, "hi")
+print(my_tuple)
+print(my_tuple[0])
+print(my_tuple[1])
+print(my_tuple[2])
+
+print(my_tuple[0:3])
+
+## ACTIVITY 2
+my_set ={1,2,3,3,4,4,5,5,5,6,7,7,8,9}
+print("my_set", my_set)
+
+my_set.add(10)
+print("update my_set", my_set)
+
+set1 = my_set
+set2 = {10,1,2,3,14,15}
+print("differnce :", set1.difference(set2))
+
+## ACTIVITY 3
+
+setun1 = {"green", "blue"}
+setun2 = {"blue", "yellow"}
+print("union", setun1.union(setun2))
+
+#ACTIVITY 4
+
+setx ={"apple", "banana"}
+sety ={"banana", "orange"}
+print("intersection", setx.intersection(sety))
