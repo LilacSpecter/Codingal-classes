@@ -189,44 +189,44 @@
 #print("Convert the said list of lists to a dictionary : ",student_list)
 
 #ACTIVITY 1 
-my_tuple =()
-print(my_tuple)
-my_tuple = {1,2,3}
-print(my_tuple)
+#my_tuple =()
+#print(my_tuple)
+#my_tuple = {1,2,3}
+#print(my_tuple)
 
-my_tuple =(1,2,3, "hi")
-print(my_tuple)
+#my_tuple =(1,2,3, "hi")
+#print(my_tuple)
 
-my_tuple =(1,2,3, "hi", 4.5)
-print(my_tuple)
+#my_tuple =(1,2,3, "hi", 4.5)
+#print(my_tuple)
 
-my_tuple =(1,2,3, "hi")
-print(my_tuple)
-print(my_tuple[0])
-print(my_tuple[1])
-print(my_tuple[2])
+#my_tuple =(1,2,3, "hi")
+#print(my_tuple)
+#print(my_tuple[0])
+#print(my_tuple[1])
+#print(my_tuple[2])
 
-print(my_tuple[0:3])
+#print(my_tuple[0:3])
 
 ## ACTIVITY 2
-my_set ={1,2,3,3,4,4,5,5,5,6,7,7,8,9}
-print("my_set", my_set)
+#my_set ={1,2,3,3,4,4,5,5,5,6,7,7,8,9}
+#print("my_set", my_set)
 
-my_set.add(10)
-print("update my_set", my_set)
+#my_set.add(10)
+#print("update my_set", my_set)
 
-set1 = my_set
-set2 = {10,1,2,3,14,15}
-print("differnce :", set1.difference(set2))
+#set1 = my_set
+#set2 = {10,1,2,3,14,15}
+#print("differnce :", set1.difference(set2))
 
 ## ACTIVITY 3
 
-setun1 = {"green", "blue"}
-setun2 = {"blue", "yellow"}
-print("union", setun1.union(setun2))
+#setun1 = {"green", "blue"}
+#setun2 = {"blue", "yellow"}
+#print("union", setun1.union(setun2))
 
 #ACTIVITY 4
 
-setx ={"apple", "banana"}
-sety ={"banana", "orange"}
-print("intersection", setx.intersection(sety))
+#setx ={"apple", "banana"}
+#sety ={"banana", "orange"}
+#print("intersection", setx.intersection(sety))
