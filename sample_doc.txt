@@ -1,1 +1,3 @@
- This is Append Mode.  This is Append Mode. 
+student detailsstudent name: Rowanne Coorey 
+students favourite subjects: Science, I.C.T, English, French, History.
+
