@@ -56,13 +56,13 @@ print(file_read.read())
 file_read.close()
 
 file_write = open("sample_doc.txt", "w")
-file_write.write("file in write mode -")
-file_write.write("Hi I am Penguin. I am 1 year old")
+file_write.write("file in write mode - \n")
+file_write.write("Hi I am Penguin. I am 9 years old")
 file_write.close()
 
-file_append = open("sample__doc.txt", "a")
-file_append.write("\n File in append mode -")
-file_append.write("Hi! I am Penguin. I am 1 year old")
+file_append = open("sample_doc.txt", "a")
+file_append.write("\n File in append mode - \n")
+file_append.write("Hi! I am Penguin. I am 10 years old")
 file_append.close()
 
 file_read = open("sample_doc.txt")
