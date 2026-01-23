@@ -1,3 +1,1 @@
-student detailsstudent name: Rowanne Coorey 
-students favourite subjects: Science, I.C.T, English, French, History.
-
+file in write mode -Hi I am Penguin. I am 1 year old
