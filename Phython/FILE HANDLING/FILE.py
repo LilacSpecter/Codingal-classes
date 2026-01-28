@@ -50,24 +50,23 @@
 
 ### 20/01/2026 ###
 
-file_read = open("sample_doc.txt", "r")
-print("file in Read Mode -")
-print(file_read.read())
-file_read.close()
+#file_read = open("sample_doc.txt", "r")
+#print("file in Read Mode -")
+#print(file_read.read())
+#file_read.close()
 
-file_write = open("sample_doc.txt", "w")
-file_write.write("1. file in write mode - \n")
-file_write.write("Hi I am Penguin. I am 9 years old")
-file_write.close()
+#file_write = open("sample_doc.txt", "w")
+#file_write.write("Hi I am Penguin. I am 9 years old")
+#file_write.close()
 
-file_append = open("sample_doc.txt", "a")
-file_append.write("\n File in append mode - \n")
-file_append.write("Hi! I am Penguin. I am 10 years old")
-file_append.close()
+#file_append = open("sample_doc.txt", "a")
+#file_append.write("\n File in append mode - \n")
+#file_append.write("Hi! I am Penguin. I am 10 years old")
+#file_append.close()
 
-file_write = open("sample_doc.txt", "w")
-file_write.write("Hi!\nI AM PENGUIN. AND MY AGE IS INFINITY......")
-file_write.close
+#file_write = open("sample_doc.txt", "w")
+#file_write.write("Hi!\nI AM PENGUIN. AND MY AGE IS INFINITY......")
+#file_write.close
 
 #file_read = open("sample_doc.txt", "r")
 #print("2. file in Read Mode -")
