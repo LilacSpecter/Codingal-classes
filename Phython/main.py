@@ -234,23 +234,61 @@
 
 # 28/01/2026 #
 
-# Module 14 lesson 1
+## Module 14 lesson 1
 
-#Activity 1
-def fun1(n):
+##Activity 1
+#def fun1(n):
  
-  return n*(n+1)/2
+#  return n*(n+1)/2
 
-print(fun1(4))
+#print(fun1(4))
 
-#Activity 2 
+##Activity 2 
 
-def fun2(n):
-  sum=0
-  for i in range (1,n+1):
-    sum+=i
-  return sum
+#def fun2(n):
+#  sum=0
+#  for i in range (1,n+1):
+#    sum+=i
+#  return sum
 
-print(fun2(4))
+#print(fun2(4))
+
+
+#3/2/2026
+#activity 1
+def printnumber(n):
+    iteration=0
+    print("the number entered by user is:", n)
+    iteration+=1
+    print("the number of iteration is :", iteration)
+
+printnumber(10)
+
+#activity 2
+def OnTime(n):
+    iteration=0
+    for i in range(1, n+1):
+        iteration+=1
+        print("the number of iteration is :", iteration)
+
+OnTime(4)
+OnTime(20)
+
+def ONSquareTime(n):
+    iteration=0
+    for i in range(0, n):
+      for j in range(0, n):
+          print("*",end="")
+          iteration+=1
+    print("the number of iteration:", iteration)
+
+ONSquareTime(4)
+
+
+      
+      
+
+
+
 
 
