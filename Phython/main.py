@@ -283,6 +283,38 @@
 
 #ONSquareTime(4)
 
+##4/2/2026
+
+def prints(n):
+    if n <= 0:
+        return
+    
+    print("codingal")
+    prints(n)
+
+    prints(n//2)
+
+    print("code RecursionTimeComplexity")
+
+prints(10)
+
+##activity 2
+
+def sum_n(n):
+    if n <= 0:
+        return 0
+    return n * (n + 1) // 2
+
+print(sum_n(5))
+
+def arraysum(a):
+    sum=0
+    for i in a:
+      sum=sum+i
+    return sum
+a=[12,3,4,15]  
+arraysum(a)
+
 
       
       
