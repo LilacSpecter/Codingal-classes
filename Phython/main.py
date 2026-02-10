@@ -285,41 +285,85 @@
 
 ##4/2/2026
 
-def prints(n):
-    if n <= 0:
-        return
+#def prints(n):
+#    if n <= 0:
+#        return
     
-    print("codingal")
-    prints(n)
+#    print("codingal")
+#    prints(n)
 
-    prints(n//2)
+#    prints(n//2)
 
-    print("code RecursionTimeComplexity")
+#    print("code RecursionTimeComplexity")
 
-prints(10)
+#prints(10)
 
 ##activity 2
 
-def sum_n(n):
-    if n <= 0:
-        return 0
-    return n * (n + 1) // 2
+#def sum_n(n):
+#    if n <= 0:
+#        return 0
+#    return n * (n + 1) // 2
 
-print(sum_n(5))
+#print(sum_n(5))
 
-def arraysum(a):
-    sum=0
-    for i in a:
-      sum=sum+i
-    return sum
-a=[12,3,4,15]  
-arraysum(a)
+#def arraysum(a):
+#    sum=0
+#    for i in a:
+#      sum=sum+i
+#    return sum
+#a=[12,3,4,15]  
+#arraysum(a)
 
+#activity 1
+number= 200
 
+print("number is : ", number)
+digits=len(str(number))
+print("digits is : ", digits)
+result=0
+temp=number
+while temp>0:
+    digit=temp%10
+    result+=digit**digits
+    temp//=10
+if number==result:
+   print("number is armstrong")
+else:
+   print("number is not an armstrong")
       
-      
+#activity 2
+
+def print_factors(number):
+   priint("the factors of a given number are : ")
+   for i in range(1, number+1):
+      if number%i==0:
+         
 
 
+#activity 3
+def int_to_roman(number):
+   
+   VAL = [
+      1000, 900, 500, 400,
+      100, 90, 50, 40,
+      10, 9, 5, 4,
+      1
+    ]
 
+   syb = [
+      "M", "CM", "D", "CD",
+      "C", "XC", "L", "XL"
+      "X", "IX", "V", "IV",
+      "I"
+   ]
 
-
+ROMAN_NUM = ''
+i = 0
+while number > 0:
+   for _ in range(number // val[i]):
+      roman_num += syb[i]
+      number -= val [i]
+    i += 1
+   return roman_num
+print("{} in Roman Numerals is {}".format(200, int_to_roman(200)))
