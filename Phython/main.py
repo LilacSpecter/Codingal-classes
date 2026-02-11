@@ -370,25 +370,25 @@
 
 ##activity 1
 
-number=int(input("input number: "))
-original_num=number
-reverse_num=0
-while number>0:
-    digit=number%10
-    reverse_num=reverse_num*10+digit
-    number//= 10
-if original_num==reverse_num:
-    print(" is a palligenic number")
-else:
-    print("is not a '' number")
+#number=int(input("input number: "))
+#original_num=number
+#reverse_num=0
+#while number>0:
+#    digit=number%10
+#    reverse_num=reverse_num*10+digit
+#    number//= 10
+#if original_num==reverse_num:
+#    print(" is a palligenic number")
+#else:
+#    print("is not a '' number")
 
 ##activity 2
 
-largest_num= int(input("enter a large number: "))
-smallest_num= int(input("enter a smaller number: "))
-while (smallest_num):
-    numberStore=smallest_num
-    smallest_num+largest_num%smallest_num
-    largest_num=numberStore
-print("GCD is : ", largest_num)
-print("HCF is : ", largest_num)
+#largest_num= int(input("enter a large number: "))
+#smallest_num= int(input("enter a smaller number: "))
+#while (smallest_num):
+#    numberStore=smallest_num
+#    smallest_num+largest_num%smallest_num
+#    largest_num=numberStore
+#print("GCD is : ", largest_num)
+#print("HCF is : ", largest_num)
