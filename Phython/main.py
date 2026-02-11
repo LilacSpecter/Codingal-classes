@@ -315,55 +315,80 @@
 #a=[12,3,4,15]  
 #arraysum(a)
 
-#activity 1
-number= 200
+##activity 1
+#number= 200
 
-print("number is : ", number)
-digits=len(str(number))
-print("digits is : ", digits)
-result=0
-temp=number
-while temp>0:
-    digit=temp%10
-    result+=digit**digits
-    temp//=10
-if number==result:
-   print("number is armstrong")
-else:
-   print("number is not an armstrong")
+#print("number is : ", number)
+#digits=len(str(number))
+#print("digits is : ", digits)
+#result=0
+#temp=number
+#while temp>0:
+#    digit=temp%10
+#    result+=digit**digits
+#    temp//=10
+#if number==result:
+#   print("number is armstrong")
+#else:
+#   print("number is not an armstrong")
       
-#activity 2
+##activity 2
 
-def print_factors(number):
-   priint("the factors of a given number are : ")
-   for i in range(1, number+1):
-      if number%i==0:
+#def print_factors(number):
+#   priint("the factors of a given number are : ")
+#   for i in range(1, number+1):
+#      if number%i==0:
          
 
 
-#activity 3
-def int_to_roman(number):
+##activity 3
+#def int_to_roman(number):
    
-   VAL = [
-      1000, 900, 500, 400,
-      100, 90, 50, 40,
-      10, 9, 5, 4,
-      1
-    ]
+#   VAL = [
+#      1000, 900, 500, 400,
+#      100, 90, 50, 40,
+#      10, 9, 5, 4,
+#      1
+#    ]
 
-   syb = [
-      "M", "CM", "D", "CD",
-      "C", "XC", "L", "XL"
-      "X", "IX", "V", "IV",
-      "I"
-   ]
+#   syb = [
+#      "M", "CM", "D", "CD",
+#      "C", "XC", "L", "XL"
+#      "X", "IX", "V", "IV",
+#      "I"
+#   ]
 
-ROMAN_NUM = ''
-i = 0
-while number > 0:
-   for _ in range(number // val[i]):
-      roman_num += syb[i]
-      number -= val [i]
-    i += 1
-   return roman_num
-print("{} in Roman Numerals is {}".format(200, int_to_roman(200)))
+#ROMAN_NUM = ''
+#i = 0
+#while number > 0:
+#   for _ in range(number // val[i]):
+#      roman_num += syb[i]
+#      number -= val [i]
+#    i += 1
+#   return roman_num
+#print("{} in Roman Numerals is {}".format(200, int_to_roman(200)))
+
+##activity 1
+
+number=int(input("input number: "))
+original_num=number
+reverse_num=0
+while number>0:
+    digit=number%10
+    reverse_num=reverse_num*10+digit
+    number//= 10
+if original_num==reverse_num:
+    print(" is a palligenic number")
+else:
+    print("is not a '' number")
+
+##activity 2
+
+largest_num= int(input("enter a large number: "))
+smallest_num= int(input("enter a smaller number: "))
+while (smallest_num):
+    numberStore=smallest_num
+    smallest_num+largest_num%smallest_num
+    largest_num=numberStore
+print("GCD is : ", largest_num)
+print("HCF is : ", largest_num)
